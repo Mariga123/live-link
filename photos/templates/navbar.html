@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Personal Gallery</a>
+    <a class="navbar-brand" href="{% url 'admin:index' %}">Admin</a>
+    
+    <!-- Links -->
+</nav>
+<div class="container">
+    <div class="form">
+        <form class="form-inline my-2 my-md-0" action="/search" role="search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search from Categories" name="imagesearch"
+                aria-label="Search">
+            <button class="btn btn-default btn-md my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</div>
